@@ -39,11 +39,11 @@
     		else
     		{
     			NumberToWords a = new NumberToWords();
-    			a.pw((n / 1000000000), " Hundred");
-    			a.pw((n / 10000000) % 100, " crore");
-    			a.pw(((n / 100000) % 100), " lakh");
-    			a.pw(((n / 1000) % 100), " thousand");
-    			a.pw(((n / 100) % 10), " hundred");
+    			a.pw((n / 1000000000), " hundred");
+    			a.pw((n / 10000000) % 100, " Crore");
+    			a.pw(((n / 100000) % 100), " Lakh");
+    			a.pw(((n / 1000) % 100), " Thousand");
+    			a.pw(((n / 100) % 10), " Hundred");
     			a.pw((n % 100), " ");
     		}
     	}
